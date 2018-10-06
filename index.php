@@ -5,7 +5,7 @@
 
 <header>
     <div>
-      <h1> Three students at UR</h1>
+      <h1> Odd student out</h1>
     </div>
 </header>
 
