@@ -35,6 +35,7 @@
 <footer>
 	Team Alicante - CSC174 
 </footer>
+<?php include "inc/scripts.inc"; ?>
 </div>
 </body>
 </html>
