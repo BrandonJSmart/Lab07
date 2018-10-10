@@ -1,16 +1,21 @@
-<?php include "inc/html-top.inc"; ?>
+<?php include "includes/html.inc"; ?>
 
-<body>
+<body class="sub">
   <div class="container">
 
 <header>
       <h1>About Us</h1>
 </header>
 
+<?php include "includes/nav.inc"; ?>
+
 <article>
 
 	<h2>Xinyi Chen</h2>
 		<h3>Story of Xinyi</h3>	
+
+		<img src="images/tianjin2.png" alt="tianjin">
+
 			<p>Xinyi is a digital media study undergraduate student of University of Rochester. She is also trying to major or minor in Spanish. She is a person who is not really specialized or skilled in any specific field but always willing to try something new. Xinyi is not sure if it is a good idea exploring around different possibilities and not commit herself in one particular subject, but she understands this is what college is for. Her computer science skill includes basic HTML, CSS, python. Her hobbies include cooking weird food, drawing grotesque, speaking a little chin-span-glish, and chin-span-urk.</p>
 		
    		<h3>Personal:</h3>
@@ -23,7 +28,10 @@
 			<p>She has taken courses from various subjects. She has taken all of the four digital media study core courses. She also took writing and Middle East dance the first semester of her freshman year. She took two elementary Spanish courses and currently enrolled in intermediate Spanish class. She explored and took elementary Turkish her second semester in freshman year, however the professor is leaving the university and all of the Turkish language courses had to be cancelled. In this semester, she is taking resistant literature of the middle east, advanced front-end web developing, revolution in sound, and introduction to book publishing. </p>
 
 	<h2>Jonathan Roman</h2>
-		<h3>Story of Jonathan</h3>	
+		<h3>Story of Jonathan</h3>
+
+		<img src="images/jroman2.jpg" alt="jonathan">
+
 			<p>Jonathan is from Tenafly, NJ and was born September 6th, 1997. He currently attends to the University of Rochester with a major in Computer Science. His hobbies include playing video games and basketball, both of which he participates in groups around campus.</p>
    		
 		<h3>Personal:</h3>
@@ -36,7 +44,10 @@
 			<p>As far as his academic career used to be, he was very into biology in high school. He would attend science competitions and fairs to present research he had begun through a special science research program in his school (which he credits his acceptance to the University of Rochester to). Since he was still a teenager, he had not really explored many fields up to this point and although the idea of biology excited him, he does not believe he was truly passionate about it. He had always been into video games and technology since he was old enough to operate a screen, so it seemed logical that he would like computer science, but his school did not offer anything in the field, so he entered the University of Rochester with a major in biology. Once he arrived at college, he continued with my track for a year or two before he began taking classes in computer science and instantly fell in love with it. He did not realize how much he would truly enjoy the field but he is extremely happy he ended up being able to complete his major within the 4 years even with some extra classes from other fields under his belt.</p>
 
 	<h2>Renjie Xiao</h2>
-		<h3>Story of Renjie</h3>	
+		<h3>Story of Renjie</h3>
+
+		<img src="images/jerry2.jpeg" alt="renjie">
+
 			<p>Renjie is an international student currently major in Business Analytics and minor in Computer Science at the University of Rochester. Before that, he completed his high school at Walsingham Academy in a little town named Williamsburg. He has lived and studied in Shanghai, China for 16 years.</p>
 		
    		<h3>Personal:</h3>
@@ -52,7 +63,9 @@
 <footer>
 	Team Alicante - CSC174
 </footer>
-<?php include "inc/scripts.inc"; ?>
+
+<?php include "includes/scripts.inc"; ?>
+
 </div>
 </body>
 </html>
