@@ -2,7 +2,7 @@
 
 Website link:http://csc174.org/assignment07/alicante/
 
-IA:Brandon Smart | Designer: Hope Barkley | Coder: Julia Myers 
+IA:Brandon Smart | Designer: Julia Myers | Coder: Hope Barkley 
 
 1. Ontology: The things that are important include the headers which contain the names of each student, and the general information presented on them in paragraph form- their education, employment, and other. 
 
@@ -10,7 +10,7 @@ IA:Brandon Smart | Designer: Hope Barkley | Coder: Julia Myers
 
 3. Choreography: The top most thing presented was the individual's name, to ensure that it was clear who the webpage was about. Following this, was an image of the individual, to give to user a visual representation of who they are reading about. Then, we inlcuded the paragraph describing the student. Everything is listed directly down, to make it easy for a user to navigate and make their way through the site. 
 
-CSS Info (Coder - Julia Myers):
+CSS Info (Designer - Julia Myers):
 
 Use of Gutenberg Rule:
 
