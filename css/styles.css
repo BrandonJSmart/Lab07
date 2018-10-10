@@ -1,0 +1,118 @@
+/*CSS Strategy:
+I split the CSS into 4 sections:
+
+1. Menu/Navigation: I figured that nearly every website I code will have a great deal of menu and navigation elements, so I wanted to make that its own 
+category to allow it to be easier to find and manipulate in the file.
+
+2. State: I took inspiration from SMACSS for this category - it includes lines of code inserted using Javascript
+
+3. Styles: this category includes all visual styles of the website (like color, font, font size, font decoration, etc)
+
+4. Format: This includes all line of code that formats the website (like padding, margins, width, borders, etc)
+
+/************************************************************************************************************************************************
+Menu/Navigation
+************************************************************************************************************************************************/
+.menu ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+
+.menu li {float: right;
+    padding-left:10px;}
+
+.menu li a{display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+/************************************************************************************************************************************************
+State
+************************************************************************************************************************************************/
+
+.is-current { background-color: #B4DCF5;
+    color: #204861;}
+
+/************************************************************************************************************************************************
+Style
+************************************************************************************************************************************************/
+
+body {margin: 0 auto;
+    width: 95%;
+    max-width: 1300px;
+    background-color: #CCCFCF;
+    color: #333333;
+    font-family: monospace;
+    font-size: 30px;}
+
+header {color: #333333;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;}
+
+h1 {font-size: 50px;
+    color: #333;}
+
+h2 {color: #333333;
+    border-top-style: solid;
+    border-top-color: #B4DCF5;
+    border-bottom-style: solid;
+    border-bottom-color: #B4DCF5;}
+
+h3 {text-decoration: underline;
+    font-family: 'Roboto Slab', serif;}
+
+aside {background-color: #333;}
+
+aside a{color: white;
+    font-size: 20px;}
+
+/************************************************************************************************************************************************
+Format
+************************************************************************************************************************************************/
+
+body {margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;}
+
+article {
+    width: 90%;
+    padding-left: 20px;}
+
+aside {
+    width: 10%;
+    padding-left: 40px}
+
+p {text-indent: 50px;
+    line-height: 1.75em;
+    padding: 10px;}
+
+article,aside {display: table-cell;
+    padding: 25px}
+
+footer {text-align: center;
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+    clear: left;}
+
+h2 {border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;}
+
+.index img {float: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: block;
+    list-style: none;}
+
+.sub img {float: right;
+    padding-left: 30px;}
+
+.container {margin:0 auto;
+    width: 80%;
+    max-width: 1500px;}
