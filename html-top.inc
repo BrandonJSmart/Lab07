@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<title>Lab 07 - Alicante</title>
-	<link rel="stylesheet" href="css/styles.css">
-</head>
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 7</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Playfair+Display+SC" rel="stylesheet">
+	</head>
