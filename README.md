@@ -32,7 +32,7 @@ C.R.A.P Principals:
 
 Contrast:
   - most important example of Contrast was my styling of the images on the idex page. I outlined the two male pictures in blue and the one female picture in pink so that they contrasted and it was obvious that the "odd student out" was the one girl among two boys.
-   - I also added a hover detail to the he header on the profiles page so that when the user hovers over it, the color of the text changes to blue so the user knows that the text is a link back to the index page.
+   - I also added a hover detail to the the header on the profiles page and text on the buttons so that when the user hovers over them, the color of the text changes to blue so the user knows that the text is a link.
    - I also used 2 fonts to add contrast between the headers and the paragraph text. I did this to draw the eye to the headers and emphasize their importance to the user.  I chose two fonts that were listed as complimentary on Google Fonts.  I chose that pair because they have a professional vibe which matches the content of the website since it is mainly the academic interests of the students.
 
 Repetition:
