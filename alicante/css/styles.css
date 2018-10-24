@@ -1,0 +1,98 @@
+/*CSS Strategy:
+I split the CSS into 3 sections:
+
+1. State: I took inspiration from SMACSS for this category - it includes lines of code that change based on the user's actions
+
+2. Styles: this category includes all visual styles of the website (like color, font, font size, font decoration, etc)
+
+3. Format: This includes all line of code that formats the website (like padding, margins, width, borders, etc)
+
+
+/************************************************************************************************************************************************
+State
+************************************************************************************************************************************************/
+
+a:hover {color:blue;}
+
+button:hover {color:blue;}
+
+/************************************************************************************************************************************************
+Style
+************************************************************************************************************************************************/
+
+body {background-color: #CCCFCF;
+    color: #333333;
+    font-family: 'Eczar', serif;;
+    font-size: 20px;}
+
+h2.subpage {color: #333333;
+	font-family: 'Eczar', serif;
+	text-decoration: underline}
+
+footer {font-family: 'Gentium Basic', serif;}
+
+p {font-family: 'Gentium Basic', serif;}
+
+button {background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    font-family: 'Gentium Basic', serif;
+	font-size:15px;
+	border-radius: 4px;}
+
+header {color: #333333;
+    font-family: 'Eczar', serif;}
+
+a {text-decoration: none;
+	color:#333333;}
+
+/************************************************************************************************************************************************
+Format
+************************************************************************************************************************************************/
+
+.index {display: grid;
+    grid-template-columns: 1fr .3fr;}
+
+.terminal {display: grid;
+    grid-template-columns: 1fr .125fr;}
+
+.info {display: grid;
+    grid-template-columns: 1fr 1fr .25fr;}
+
+img.sub {width:75%;
+	padding-top: 30px;
+	padding-right: 30px}
+
+footer.second {padding-bottom: 50px;
+	padding-top: 50px;}
+
+body {margin: 0 auto;
+    width: 95%;
+    max-width: 1300px;}
+
+.container {margin:0 auto;
+    width: 80%;
+    max-width: 1500px;}
+
+footer {text-align: left;}
+
+body {margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;}
+
+main {width: 90%;}
+
+p {line-height: 1.75em;
+    padding: 10px;
+	padding-right: 30px;}
+
+main, img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	padding-bottom: 20px;}
+
+header {text-align: left;}
+
+header, h2 {padding-top: 10px;}
