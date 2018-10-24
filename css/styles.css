@@ -1,118 +1,98 @@
 /*CSS Strategy:
-I split the CSS into 4 sections:
+I split the CSS into 3 sections:
 
-1. Menu/Navigation: I figured that nearly every website I code will have a great deal of menu and navigation elements, so I wanted to make that its own 
-category to allow it to be easier to find and manipulate in the file.
+1. State: I took inspiration from SMACSS for this category - it includes lines of code that change based on the user's actions
 
-2. State: I took inspiration from SMACSS for this category - it includes lines of code inserted using Javascript
+2. Styles: this category includes all visual styles of the website (like color, font, font size, font decoration, etc)
 
-3. Styles: this category includes all visual styles of the website (like color, font, font size, font decoration, etc)
+3. Format: This includes all line of code that formats the website (like padding, margins, width, borders, etc)
 
-4. Format: This includes all line of code that formats the website (like padding, margins, width, borders, etc)
-
-/************************************************************************************************************************************************
-Menu/Navigation
-************************************************************************************************************************************************/
-.menu ul {list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;}
-
-.menu li {float: right;
-    padding-left:10px;}
-
-.menu li a{display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;}
 
 /************************************************************************************************************************************************
 State
 ************************************************************************************************************************************************/
 
-.is-current { background-color: #B4DCF5;
-    color: #204861;}
+a:hover {color:blue;}
+
+button:hover {color:blue;}
 
 /************************************************************************************************************************************************
 Style
 ************************************************************************************************************************************************/
 
-body {margin: 0 auto;
-    width: 95%;
-    max-width: 1300px;
-    background-color: #CCCFCF;
+body {background-color: #CCCFCF;
     color: #333333;
-    font-family: monospace;
-    font-size: 30px;}
+    font-family: 'Eczar', serif;;
+    font-size: 20px;}
+
+h2.subpage {color: #333333;
+	font-family: 'Eczar', serif;
+	text-decoration: underline}
+
+footer {font-family: 'Gentium Basic', serif;}
+
+p {font-family: 'Gentium Basic', serif;}
+
+button {background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+    font-family: 'Gentium Basic', serif;
+	font-size:15px;
+	border-radius: 4px;}
 
 header {color: #333333;
-    text-align: left;
-    font-family: 'Roboto Slab', serif;}
+    font-family: 'Eczar', serif;}
 
-h1 {font-size: 50px;
-    color: #333;}
-
-h2 {color: #333333;
-    border-top-style: solid;
-    border-top-color: #B4DCF5;
-    border-bottom-style: solid;
-    border-bottom-color: #B4DCF5;}
-
-h3 {text-decoration: underline;
-    font-family: 'Roboto Slab', serif;}
-
-aside {background-color: #333;}
-
-aside a{color: white;
-    font-size: 20px;}
+a {text-decoration: none;
+	color:#333333;}
 
 /************************************************************************************************************************************************
 Format
 ************************************************************************************************************************************************/
 
+.index {display: grid;
+    grid-template-columns: 1fr .3fr;}
+
+.terminal {display: grid;
+    grid-template-columns: 1fr .125fr;}
+
+.info {display: grid;
+    grid-template-columns: 1fr 1fr .25fr;}
+
+img.sub {width:75%;
+	padding-top: 30px;
+	padding-right: 30px}
+
+footer.second {padding-bottom: 50px;
+	padding-top: 50px;}
+
 body {margin: 0 auto;
-    width: 90%;
+    width: 95%;
     max-width: 1300px;}
-
-article {
-    width: 90%;
-    padding-left: 20px;}
-
-aside {
-    width: 10%;
-    padding-left: 40px}
-
-p {text-indent: 50px;
-    line-height: 1.75em;
-    padding: 10px;}
-
-article,aside {display: table-cell;
-    padding: 25px}
-
-footer {text-align: center;
-    border-top-style: solid;
-    border-top-color: black;
-    border-top-width: 1px;
-    clear: left;}
-
-h2 {border-top-width: 10px;
-    border-bottom-width: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 5px;
-    padding-left: 15px;}
-
-.index img {float: left;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    display: block;
-    list-style: none;}
-
-.sub img {float: right;
-    padding-left: 30px;}
 
 .container {margin:0 auto;
     width: 80%;
     max-width: 1500px;}
+
+footer {text-align: left;}
+
+body {margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;}
+
+main {width: 90%;}
+
+p {line-height: 1.75em;
+    padding: 10px;
+	padding-right: 30px;}
+
+main, img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	padding-bottom: 20px;}
+
+header {text-align: left;}
+
+header, h2 {padding-top: 10px;}

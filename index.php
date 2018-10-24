@@ -1,30 +1,24 @@
 <?php include "includes/html.inc"; ?>
 
-<body class="index">
-  <div class="container">
+<body>
+<div class="container">
 
 <header>
-      <h1> Alicante: Odd student out</h1>
+	<div class="index">
+      <h1> Team Alicante </h1>
+      <h2> Odd Student Out </h2>
+    </div>
 </header>
 
-<?php include "includes/nav.inc"; ?>
-
-<article>
-		<img src="images/tianjin.png" alt="tianjin">
-		<img src="images/jroman.jpg" alt="jonathan">
-		<img src="images/jerry.jpeg" alt="renjie"> 
-</article>
-	  
-<aside>
-	<ul> 
-        <li> <a href="http://csc174.org/assignment02/xchen/">Xinyi</a></li> 
-        <li> <a href="http://csc174.org/assignment02/jroman8/Assignment02/">Jonathan</a> </li> 
-        <li> <a href="http://csc174.org/assignment02/rxiao2/">Renjie</a></li> 
-   	</ul> 
-</aside>
+<main>
+		<img src="images/index_image.png" alt="odd_out">
+</main>
 	  
 <footer>
-	Team Alicante - CSC174 
+	<div class="terminal">
+		CSC 174 
+		<button onclick="window.location.href='subpage.php'">Click to Read More!</button>
+	</div>
 </footer>
 
 <?php include "includes/scripts.inc"; ?>
