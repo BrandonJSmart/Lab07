@@ -25,18 +25,19 @@ Use of Gutenberg Rule:
   - the title "Team Alicante" is also in the top left because it is the link back to the index page which is very important
   - the picture of the student is then to the right which brings the users eye across the page. I put the picture next because it is good for the user to be able to put a face to a name but it is secondary to actually reading about them
   - the button that links to their personal pages is on the far right.  This drags the users eyes further across the page but is the least important aspect so i put it on the far right. It is important to provide the link but I want users to stay on our site so I didnt want to put an external link in a more important area.
-  - fianlly the footer on the bottom brings the eye down creating the bottom of the "F". I put this here because it is the least important aspect of the page and that section of the page does not get much eye traffic.
+  - i repeated this pattern down the page to creat the "F" format
+  - finally the footer on the bottom brings the eye down creating the bottom of the "F". I put this here because it is the least important aspect of the page and that section of the page does not get much eye traffic.
 
 C.R.A.P Principals:
 
 Contrast:
   - most important example of Contrast was my styling of the images on the idex page. I outlined the two male pictures in blue and the one female picture in pink so that they contrasted and it was obvious that the "odd student out" was the one girl among two boys.
-   - I also added a hover detail to the he header on the profiles page so that when the user hovers over it, the color of the text changes to blue so the user knows that the text is a link.
-   - I also used 2 fonts to add contrast between the headers and the paragraph text. I did this to draw the eye to the headers and emphasize their importance to the user.  I chose two fonts that were listed as complimentary on Google Fonts.  I choose that pair because they are professional which matches the content of the website which is mainly the academic interests of the students.
+   - I also added a hover detail to the he header on the profiles page so that when the user hovers over it, the color of the text changes to blue so the user knows that the text is a link back to the index page.
+   - I also used 2 fonts to add contrast between the headers and the paragraph text. I did this to draw the eye to the headers and emphasize their importance to the user.  I chose two fonts that were listed as complimentary on Google Fonts.  I chose that pair because they have a professional vibe which matches the content of the website since it is mainly the academic interests of the students.
 
 Repetition:
   - I used the same border colors on the pictures on the second page to have consistency and emphasize that the girl (among two boys) was the odd student out.
-  - i also used the same color scheme throughout which was a greyscale. I chose a greyscale because it is professional and neutral which matched the content of the website since it is mainly about the students' academic work and interests.
+  - i also used the same color scheme throughout which was a greyscale. I chose a greyscale because it is professional and neutral which matched the content of the website since it is mainly about the students' academic interests and courses.
 
 Alignment:
   - I aligned the pictures together on the home page to form a "hero" image with different color borders. I did this to bring attention to the fact that the girl was the odd student out (because the other two are boys)
